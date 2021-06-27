@@ -1,0 +1,55 @@
+{
+  "name": "bugclaim-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "author": "BugClaim",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@kangc/v-md-editor": "^1.6.0",
+    "@vue/cli-plugin-pwa": "^4.5.11",
+    "axios": "^0.21.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-plugin-vue": "^7.5.0",
+    "vee-validate": "^2.2.15",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3",
+    "vue-simple-markdown": "^1.1.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
